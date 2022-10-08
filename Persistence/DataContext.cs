@@ -1,8 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Domain;
+
 namespace Persistence {
     public class DataContext: DbContext {
         public DbSet <WeatherForecast> WeatherForecasts { get; set; }
+        public DbSet <Post> Posts { get; set; }
         public string DbPath { get; }
         public DataContext() {
             var folder = Environment.SpecialFolder.LocalApplicationData;
