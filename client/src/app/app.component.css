@@ -1,0 +1,26 @@
+.Post {
+    background-image: linear-gradient(to right, rgb(46, 42, 42), rgb(73, 73, 133), rgb(46, 42, 42));
+    margin: 2em;
+    margin-bottom: 5em;
+}
+
+.PageTitle {
+    color:antiquewhite;
+    text-align: center;
+}
+
+.BodyTitleFont {
+    color: antiquewhite;
+    text-align: center;
+}
+
+.BodyFont {
+    color:antiquewhite;
+    margin: 1em;
+}
+
+.Main {
+    background-color: rgb(29, 24, 24);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1em;
+}
